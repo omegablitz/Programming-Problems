@@ -1,7 +1,7 @@
 # Betta Blitz
 A new shipment of bettas have arrived at your local fish store, and there's a huge crowd of people waiting to buy them! The fish store needs your help ordering these bettas in order of highest value.
 
-Each betta has a unique name associated with it. The first **N** bettas are known famous bettas, which have set costs. The next **M** bettas are descendents of at least 2 bettas from the first **N** bettas. For example, a betta may be the direct offspring of 2 of the first **N** bettas, and it could also be the offspring of one of the first **N** bettas and one of the **M** bettas (which itself is also descended from the first **N** bettas).
+Each betta has a unique name associated with it. The first **N** bettas are known famous bettas, which have set costs. The next **M** bettas are descendents of at least 2 bettas from the first **N** bettas. For example, a betta may be the direct offspring of 2 of the first **N** bettas, and it could also be the offspring of one of the first **N** bettas and one of the **M** bettas (which itself is also descended from the first **N** bettas). Note that a betta may be listed before its ancestor!
 
 A betta's value is just its cost. If the bettas is one of the **M** latter bettas, its value should be assigned to the average of all of its ancestors in **N**'s cost. If multiple bettas have the same costs, these bettas should be tie-broken with the following color specification (top of the list = most value):
 
